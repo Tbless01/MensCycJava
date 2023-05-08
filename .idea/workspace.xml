@@ -2,17 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0ece6289-d3c7-450b-bfea-ca3fc6af79b0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/aws.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jpa-buddy.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MentrualCycle.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Cycles.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/CyclesTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/CyclesTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/CyclesTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,7 +40,8 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;
   }
 }</component>
   <component name="RecentsManager">
@@ -60,7 +52,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.CyclesTest">
     <configuration name="Cycles" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Cycles" />
       <module name="MentrualCycle" />
@@ -68,9 +60,41 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="CyclesTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MentrualCycle" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="CyclesTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CyclesTest.calculateOvulationDateForNextTwelveMonthsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MentrualCycle" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="CyclesTest" />
+      <option name="METHOD_NAME" value="calculateOvulationDateForNextTwelveMonthsTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CyclesTest.calculatePeriods" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MentrualCycle" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="CyclesTest" />
+      <option name="METHOD_NAME" value="calculatePeriods" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.CyclesTest" />
+        <item itemvalue="JUnit.CyclesTest.calculateOvulationDateForNextTwelveMonthsTest" />
         <item itemvalue="Application.Cycles" />
+        <item itemvalue="JUnit.CyclesTest.calculatePeriods" />
       </list>
     </recent_temporary>
   </component>
@@ -84,6 +108,8 @@
       <updated>1682111593989</updated>
       <workItem from="1682111596599" duration="3720000" />
       <workItem from="1682155302346" duration="7869000" />
+      <workItem from="1683498518367" duration="2302000" />
+      <workItem from="1683559569305" duration="315000" />
     </task>
     <servers />
   </component>
